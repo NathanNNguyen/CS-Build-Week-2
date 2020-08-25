@@ -21,4 +21,5 @@ class Solution:
                 value = cache[nums[i]]
                 result.append(value)
                 result.append(i)
+                return result
         return result
